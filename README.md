@@ -43,19 +43,4 @@
 | pose_iter_160000.caffemodel | [Скачать](https://huggingface.co/gaijingeek/openpose-models/resolve/main/models/pose/mpi/pose_iter_160000.caffemodel?download=true) | OpenPose MPI |
 | pose_iter_102000.caffemodel | [Скачать](https://huggingface.co/gaijingeek/openpose-models/resolve/main/models/hand/pose_iter_102000.caffemodel?download=true) | OpenPose Hand |
 
-### Структура папок
-
-После скачивания файлы должны быть расположены так:
-pose_project/
-├── models/
-│ └── pose_iter_440000.caffemodel ← для скрипта compare_5_models.py
-├── openpose-models/
-│ └── pose/
-│ ├── coco/
-│ │ └── pose_iter_440000.caffemodel
-│ ├── body_25/
-│ │ └── pose_iter_584000.caffemodel
-│ └── mpi/
-│ └── pose_iter_160000.caffemodel
-└── ...
 **Важно:** Эти файлы не включены в репозиторий из-за ограничений GitHub на размер файлов (максимум 100 МБ).
