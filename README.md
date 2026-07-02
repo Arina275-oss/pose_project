@@ -19,10 +19,10 @@
 
 ## Инструкция по запуску
 1. Создайте виртуальное окружение:
-   python -m venv pose_env
-   pose_env\Scripts\activate
-2. Установите все зависимости
-   pip install -r requirements.txt
+   python -m venv pose_env;
+   pose_env\Scripts\activate.
+2. Установите все зависимости:
+   pip install -r requirements.txt.
 3. Скачайте файлы моделей OpenPose (см. раздел «Скачивание моделей»).
 4. Запустите извлечение кадров: `python src/extract_frames.py`
 5. Запустите инференс: `python src/run_yolo_pose.py`
