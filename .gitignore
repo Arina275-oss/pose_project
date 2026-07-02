@@ -1,0 +1,7 @@
+models/*.caffemodel
+openpose-models/**/*.caffemodel
+data/raw/
+data/processed/
+runs/
+__pycache__/
+*.pyc
