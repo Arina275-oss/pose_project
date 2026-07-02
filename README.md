@@ -18,11 +18,16 @@
 - `runs/` — результаты экспериментов в JSON
 
 ## Инструкция по запуску
-1. Установите зависимости: `pip install -r requirements.txt`
-2. Запустите извлечение кадров: `python src/extract_frames.py`
-3. Запустите инференс: `python src/run_yolo_pose.py`
-4. Анализ углов: `python src/analyze_angles.py`
-5. Сравнение моделей: `python src/compare_5_models.py`
+1. Создайте виртуальное окружение:
+   python -m venv pose_env
+   pose_env\Scripts\activate
+2. Установите все зависимости
+   pip install -r requirements.txt
+3. Скачайте файлы моделей OpenPose (см. раздел «Скачивание моделей»).
+4. Запустите извлечение кадров: `python src/extract_frames.py`
+5. Запустите инференс: `python src/run_yolo_pose.py`
+6. Анализ углов: `python src/analyze_angles.py`
+7. Сравнение моделей: `python src/compare_5_models.py`
 
 ## Результаты
 Лучшая модель: YOLOv8n-pose (скорость 0,084 с/кадр, score 0,637).
